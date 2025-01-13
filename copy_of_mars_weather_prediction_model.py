@@ -403,7 +403,6 @@ showResults(y_test,svm_chain.predict(X_test))
 ## Model Deployment
 """
 
-!pip install gradio
 import gradio as gr
 
 def display(Sol, Min_Horizontal_Wind_Speed_ms, Max_Horizontal_Wind_Speed_ms, Min_Pressure_Pa, Max_Pressure_Pa, Month_Ordinal):
